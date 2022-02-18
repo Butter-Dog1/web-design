@@ -62,3 +62,11 @@ body {
 #title {
     margin-top: 0px;
 }
+
+ul {
+    text-align: center;
+    }
+    
+    li {
+    display: inline-block;
+    }
