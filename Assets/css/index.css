@@ -1,8 +1,4 @@
-body {
-    background-color: #303131;
-}
-
-hr { 
+hr {
     display: block; height: 2px;
     border: 0; border-top: 2px solid #424244;
     margin: 1em 0; padding: 0; 
@@ -19,49 +15,10 @@ table, tr, td, th {
     background-color: #313131
 }
 
-
-
-p, h1, h2, h3, h4, h5, h6, title, li {
-    color: #fff;
-    text-align: center;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-}
-
-a {
-    color: #84e0ff
-    
-}
-
-nav, header {
-    border: 20px;
-    background-color: #424244;
-    top: 0px;
-}
-
 footer {
     bottom: 0px;
 }
 
-button {
-    
-    border-radius: 5px;
-    background-color: #3f3f3f
-    
-}
-
 .img {
     border-radius: 10px;
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-}
-
-#title {
-    margin-top: 0px;
 }
