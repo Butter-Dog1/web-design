@@ -35,10 +35,14 @@ a {
     
 }
 
-nav, header, footer {
+nav, header {
     border: 20px;
     background-color: #424244;
     top: 0px;
+}
+
+footer {
+    bottom: 0px;
 }
 
 button {
