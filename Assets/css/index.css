@@ -22,3 +22,7 @@ footer {
 .img {
     border-radius: 10px;
 }
+
+#title {
+    margin-top: 0px;
+}

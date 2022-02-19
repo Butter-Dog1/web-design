@@ -3,9 +3,14 @@ function sleep(milliseconds) {
 }  
 
 async function animate() {
+    var title = document.getElementById("title")
+    for (let index = 0; index < 3; index++) {
+        await sleep(500)
+        title.innerHTML = title.innerHTML.slice(0, -1)
+    }
+    await sleep(300)
     var word = ["Z", "a", "c", "s", " ", "w", "e", "b", "s", "i", "t", "e"];
     
-    var title = document.getElementById("title")
     var change = true
     for (let index = 0; index < word.length; index++) {
         title.append(word[index])
@@ -21,7 +26,6 @@ async function animate() {
             await sleep(200)
         }
     }
-    console.log(word[1-2])
 }
 
 window.onload = animate()
