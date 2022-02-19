@@ -8,8 +8,9 @@ async function animate() {
         await sleep(500)
         title.innerHTML = title.innerHTML.slice(0, -1)
     }
+    title.innerHTML = "ㅤ"
     await sleep(300)
-    var word = ["Z", "a", "c", "s", " ", "w", "e", "b", "s", "i", "t", "e"];
+    var word = ["", "Z", "a", "c", "s", " ", "w", "e", "b", "s", "i", "t", "e"];
     
     var change = true
     for (let index = 0; index < word.length; index++) {
