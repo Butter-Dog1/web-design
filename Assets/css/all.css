@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 body {
     background-color: #303131;
@@ -12,7 +12,7 @@ nav, header {
 
 button {
     border-radius: 5px;
-    background-color: #3f3f3f
+    background-color: #3f3f3f;
 }
 
 body {
@@ -35,4 +35,11 @@ p, h1, h2, h3, h4, h5, h6, title, li { /* TODO: sepereate, these are not all sup
 
 video {
     outline: none;
+}
+
+hr {
+    display: block; height: 2px;
+    border: 0; border-top: 2px solid #424244;
+    margin: 1em 0; padding: 0;
+    opacity: 100;
 }
