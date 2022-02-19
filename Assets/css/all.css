@@ -11,8 +11,13 @@ nav, header {
 }
 
 button {
+<<<<<<< HEAD
     border-radius: 5px;
     background-color: #3f3f3f;
+=======
+    border-radius: 5px;  
+    background-color: #3f3f3f
+>>>>>>> eeece79 (Removed taarget-"_blank" from all buttons)
 }
 
 body {
