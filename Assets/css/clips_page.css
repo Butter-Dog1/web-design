@@ -1,3 +1,10 @@
-body {
-    background-color: aqua;
+.clips{
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    position: relative;
+}
+
+.clips:hover {
+    transform: scale(1.5);
+    z-index: 1;
 }
