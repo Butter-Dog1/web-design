@@ -13,16 +13,8 @@ nav, header {
 button {
     border-radius: 5px;
     background-color: #3f3f3f;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     border-radius: 5px;  
     background-color: #3f3f3f
->>>>>>> eeece79 (Removed taarget-"_blank" from all buttons)
-=======
->>>>>>> 0e6e137 (Pushing unstaged changes before rebasing)
-=======
->>>>>>> 0e6e1378a1ee2f5eaa08a053d4be4eef4a0248f4
 }
 
 body {
