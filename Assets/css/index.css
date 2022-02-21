@@ -1,1 +1,5 @@
-/* Leave here in case we need it in future
+/* Leave here in case we need it in future */
+p, h2, h3, h4, h5, h6, li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
