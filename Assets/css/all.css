@@ -32,7 +32,7 @@ hr {
     opacity: 100;
 }
 
-table, tr, td, th {   
+table, tr, td, th {
     border: 15px solid #424244;
     border-radius: 10px;
     background-color: #424244;
@@ -52,10 +52,6 @@ a {
 
 video {
     outline: none;
-}
-
-li {
-    display: inline-block;
 }
 
 .navbar-button {
