@@ -1,30 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-body {
+body, html {
     background-color: #303131;
-}
-
-nav, header {
-    border: 20px;
-    background-color: #424244;
-    top: 0px;
-}
-
-button {
-    border-radius: 5px;
-    background-color: #3f3f3f;
-    border-radius: 5px;  
-    background-color: #3f3f3f
-}
-
-body {
     margin: 0px;
     padding: 0px;
     border: 0px;
 }
 
-a {
-    color: #84e0ff
+header {
+    border: 20px;
+    background-color: #424244;
+    top: 0px;
+    width: 100%;
 }
 
 p, h1, h2, h3, h4, h5, h6, title, li { /* TODO: sepereate, these are not all supposed to be center aligned*/
@@ -35,13 +22,49 @@ p, h1, h2, h3, h4, h5, h6, title, li { /* TODO: sepereate, these are not all sup
     font-weight: 300;
 }
 
+hr {
+    display: block; 
+    height: 2px;
+    border: 0; 
+    border-top: 2px solid #424244;
+    margin: 1em 0; 
+    padding: 0;
+    opacity: 100;
+}
+
+table, tr, td, th {   
+    border: 15px solid #424244;
+    border-radius: 10px;
+    background-color: #424244;
+    margin-left:auto;
+    margin-right:auto; 
+}
+
+img {
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a {
+    color: #84e0ff
+}
+
 video {
     outline: none;
 }
 
-hr {
-    display: block; height: 2px;
-    border: 0; border-top: 2px solid #424244;
-    margin: 1em 0; padding: 0;
-    opacity: 100;
+li {
+    display: inline-block;
+}
+
+.navbar-button {
+    border-radius: 5px;
+    background-color: #3f3f3f;
+    border-radius: 5px;  
+    background-color: #3f3f3f
+}
+
+.navbar-button:hover {
+    background-color: #313131
 }
