@@ -1,0 +1,10 @@
+img{
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    position: relative;
+}
+
+img:hover {
+    transform: scale(1.5);
+    z-index: 1;
+}
